@@ -19,6 +19,12 @@ docker run -e -v $PWD:/src -w /src build-env make
 NOSSL=1 make
 ```
 
+### Windows
+
+```
+added wsock32.lib to (AdditionalDependencies) for project setting
+```
+
 ## Documentation
 
 ftplibpp provides a c++ class providing ftp client functionality. It supports all basic ftp functionality plus some
